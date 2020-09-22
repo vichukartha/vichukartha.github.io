@@ -1,0 +1,108 @@
+header {
+	text-align: center;
+	padding: 1%;
+	border-bottom-style: solid;
+}
+footer {
+	padding: 10%;
+	clear: both;
+	text-align: center;
+
+}
+body {
+
+	margin: 5%;
+	font-family: "LithographLight",sans;
+	background-image: url("back.jpg");
+}
+#name:hover {
+	color: navy;
+}
+#name {
+	font-weight: bolder;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#lnkname {
+	text-decoration: none;
+	color: black;
+}
+#name:active {
+	color: navy;
+}
+#mean{
+	visibility: hidden;
+}
+#meaning:hover #mean{
+	visibility: visible;
+}
+#meaning {
+	text-align: right;
+}
+#contents {
+	padding: 5%;
+}
+
+
+#more {
+	display: -webkit-inline-box;
+	padding: 5%;
+}
+#lnkmr {
+	padding: 5%;
+
+}
+#followme {
+	padding: 5%;
+
+}
+img {
+	width: 65%;
+}
+#fb {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+#insta {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+#twitter {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+
+#more{
+	display: inline;
+}
+ul{
+	display: flex;
+	list-style: none;
+	transition: 1.5s;
+}
+ul li a img{
+	transition: 0.3s;
+}
+#flw{
+	display: flex;	
+	justify-content: center;
+}
+#txt{
+	display: flex;
+	justify-content: center;
+}
+ul:hover li a img{
+	transform: scale(1.5);
+	-webkit-filter: blur(4px);
+	filter: blur(4px);	
+}
+ul li a:hover img{
+	transform: scale(2);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}

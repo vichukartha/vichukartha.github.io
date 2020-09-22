@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" media="only screen and (min-width:1280px)" href="screencss.css">
+	<link rel="stylesheet" media="only screen and (min-width:992px)" href="screencss.css">
+	<link rel="stylesheet" media="only screen and (min-width:768px)" href="mobile.css">
+	<link rel="stylesheet" media="only screen and (min-width:480px)" href="mobile.css">
+	<link rel="stylesheet" media="only screen and (min-width:180px)" href="mobile.css">
+	<link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet"> 
+	<title>Vichukartha</title>
+</head>
+<body onload="slider()">
+	<header id="headings">
+		<h1>Vichukartha</h1>
+		<h3>The Phoenix</h3>
+	</header>
+	<article>
+		<div id="contents">
+			
+			<p>
+				"If they answer not to thy call WALK ALONE,<br>
+				<br>
+				If they are afraid and cower mutely facing the wall,<br>
+				O you unfortunate,<br>
+				open thy mind and SPEAK OUT ALONE.<br>
+				<br>
+				If they turn away, and desert you when crossing the wilderness,<br>
+				O you unfortunate,<br>
+				trample the thorns under thy tread,<br>
+				and along the blood-lined track TRAVEL ALONE<br>
+				<br>
+				If they do not hold up the light when the night is troubled with storm,<br>
+				O you unfortunate,<br>
+				with the thunder flame of pain ignite thy own heart<br>
+				and let it BURN ALONE."<br><br>
+				- Rabindranath Tagore
+			</p>
+		</div>
+		<div id="box">
+			<img  id="big">
+		</div>
+			<div class="ftr" id="more">
+					<div id="txt">
+						<div id="lnkmr"><a id="morelink">About Me</a></div>
+						<div id="followme">Follow Me At : </div>
+					</div>
+					<div id="flw">
+						<ul>
+							<li><div id="fb"><a class="img"id="fb" href="https://www.facebook.com/profile.php?id=100014162684141"><img src="fb.png"></a></div></li>
+							<li><div id="insta"><a class="img"id="insta" href="https://www.instagram.com/vichu_the_phoenix_/"><img src="insta.png"></a></div></li>
+							<li><div id="twitter"><a class="img"id="twitter" href="https://twitter.com/ViswanathaKarth"><img src="twitter.png"></a></div></li>
+						</ul>
+					</div>
+			</div>
+		</article>
+		<footer cla9ss="ftr"><i>"I will change the world."</i></footer>
+		
+
+	
+	
+<script>
+	var i = 0;
+	function change(){
+		document.getElementById("big").src = "img"+(i++ %5)+".jpg";
+	}
+	function slider(){
+		setInterval(change, 8000);
+	}
+</script>
+</body>
+</html>

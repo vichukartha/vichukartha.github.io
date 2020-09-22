@@ -1,0 +1,116 @@
+header {
+	text-align: center;
+	padding: 1%;
+	border-bottom-style: solid;
+}
+footer {
+	padding: 10%;
+	clear: both;
+	text-align: center;
+
+}
+body {
+	margin: 5%;
+	font-family: 'Yellowtail', cursive;
+	font-family: "Playfair Display";
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Alegreya', serif;
+	font-family: 'Abel', sans-serif;
+	background-image: url("back.jpg");
+	background-size: cover;
+}
+#big {
+	width: 100%;
+	box-shadow: 1px 1px 5em;
+	border-radius: 5%;
+	opacity: 1;
+}
+#big:hover {
+	opacity: 0.9;
+}
+#name:hover {
+	color: navy;
+}
+#name {
+	font-weight: bolder;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#lnkname {
+	text-decoration: none;
+	color: black;
+}
+#name:active {
+	color: navy;
+}
+
+#contents {
+	padding: 5%;
+
+}
+#more {
+	display: -webkit-inline-box;
+	text-align: center;
+	padding: 5%;
+	width: 100%;
+}
+#lnkmr {
+	padding: 5%;
+	padding-top: 9%;
+
+}
+#followme {
+	padding: 5%;
+	padding-top: 9%;
+
+}
+img {
+	width: 30%;
+}
+#fb {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+#insta {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+#twitter {
+	padding: 3%;
+	padding-left: 3%;
+	padding-top: 5%;
+}
+#more{
+	display: inline;
+}
+ul{
+	display: flex;
+	list-style: none;
+	transition: 1.5s;
+}
+ul li a img{
+	transition: 0.3s;
+}
+#flw{
+	display: flex;	
+	justify-content: center;
+}
+#txt{
+	display: inline;
+	justify-content: center;
+}
+ul:hover li a img{
+	transform: scale(1.5);
+	-webkit-filter: blur(4px);
+	filter: blur(4px);	
+}
+ul li a:hover img{
+	transform: scale(2);
+	-webkit-filter: blur(0px);
+	filter: blur(0px);
+}
+
